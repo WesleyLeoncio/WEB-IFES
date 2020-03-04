@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <!-- Login -->
+    <form action="" name="formLogar" method="POST">
+    
+     <p> Faça seu login: </p>
+     <p><label for="iLogin">Login:</label>
+         <input id="iLogin" name="nLogin" type="text" value="" placeholder= "Seu login"></p>
+     <p><label for="iSenha">Senha:</label>
+         <input id="iSenha" name="nSenha" type="password" value="" placeholder= "Sua senha"></p>
+     <input type="submit" name="nLogar" value="Logar">
+    </form>
+    <!-- Cadastro-->
+    <hr>
+    <form action="" name="formCadastro" method="POST"></form>
+    <p>Faça seu cadastro</p>
+    <p><label for="iNome">Nome:</label>
+       <input id="iNome" nome="nNome" type="text" value=""></p>
+       <p><label for="iCpf">CPF:</label>
+            <input id="iCpf" name="nCpf" type="text" value=""></p>
+        <p><label for="iEmail">E-mail:</label>
+            <input id="iEmail" name="nEmail" type="email" value=""></p>
+        <p><label for="iLoginCadastro">Login:</label>
+            <input id="iLoginCadastro" name="nLoginCadastro" type="text" value=""></p>
+        <p><label for="iSenhaCadastro">Senha:</label>
+            <input id="iSenhaCadastro" name="nSenhaCadastro" type="password" value=""></p>
+        <p><label for="iRenda">Renda:</label>
+            <input id="iRenda" name="nRenda" type="number" step="0.01" value=""></p>
+        <p><label for="iDataNasc">Data de nascimento:</label>
+            <input id="iDataNasc" name="nDataNasc" type="date" value=""></p>
+        <p><label for="iObs">Observação.:</label></p>
+        <p><textarea id="iObs" name="nObs" cols="50" rows="10"></textarea></p>
+        <p><label>Gênero:</label>
+            <input id="iGeneroMasc" name="nGenero" type="radio" value="M">
+            <label for="iGeneroMasc">Masculino</label>
+            <input id="iGeneroFem" name="nGenero" type="radio" value="F">
+            <label for="iGeneroFem">Feminino</label></p>
+        <p><label>Curso</label>
+            <select name="nCurso">
+                <optgroup label="Ensino Médio">
+                    <option value="EMI">Eletromecânica Integrado</option>
+                    <option value="IMI">Informática Integrado</option>
+                </optgroup>
+                <optgroup label="Ensino Superior">
+                    <option value="SI">Sistemas de Informação</option>
+                    <option value="EM">Engenharia Mecânica</option>
+                    <option value="LI">Licenciatura em Informática</option>
+                </optgroup>
+                <optgroup label="Pós Graduação">
+                    <option value="PR">Pós Graduação em Rochas</option>
+                </optgroup>
+            </select></p>
+            <p><label>Áreas de Interesses</label>
+                <input id="iAreasEsp" name="nAreas" type="checkbox" value="Esportes">
+                <label for="iAreasEsp">Esportes</label>
+                <input id="iAreasMus" name="nAreas" type="checkbox" value="">
+                <label for="iAreasMus">Música</label>
+                <input id="iAreasPol" name="nAreas" type="checkbox" value="">
+                <label for="iAreasPol">Política</label></p>
+            <p>
+                <input name="nCadastrar" type="submit" value="Cadastrar">
+            </p>   
+      
+</body>
+</html>
