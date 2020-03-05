@@ -48,7 +48,7 @@
                 <textarea name="msg" id="iMsg" cols="30" rows="5"></textarea>
             <p>
                 <input type="submit" name="nCadastrar" 
-                    class="btn btn-outline-primary"
+                    class="btn btn-outline-success"
                     value="Cadastrar" />
             </p>
         </form>
