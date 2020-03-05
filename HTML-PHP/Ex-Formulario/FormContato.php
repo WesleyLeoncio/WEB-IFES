@@ -27,12 +27,12 @@
 
         <form action="FormProc.php" name="formContato" id="formContato" method="post">
             <p>Faça Contato</p>
-            <label for="iNome">Nome:</label>
+            <label for="iNome">Nome</label></br>
             <input name="nNome" type="text" value="" id="iNome" /></br></br>
-            <label for="iEmail">Email:</label>
+            <label for="iEmail">Email</label></br>
             <input name="nEmail" type="text" value="" id="iEmail" /></br></br>
 
-        <p><label>Curso</label>
+        <p><label>Curso</label></br>
                 <select name="nCurso">
                     <optgroup label="Ensino Médio">
                         <option value="EMI">Eletromecânica Integrado</option>
@@ -48,12 +48,12 @@
                     </optgroup>            
                 </select>
             </p>
-            <label for="iIdade">Idade:</label>
+            <label for="iIdade">Idade</label></br>
                 <input name="nIdade" type="number" step="1"
                 placeholder="Digite sua idade" id="iIdade" /></br></br>
 
 
-            <p><label for="iMsg">Mensagem:</label></br>
+            <p><label for="iMsg">Mensagem</label></br>
                 <textarea name="msg" id="iMsg" cols="30" rows="5"></textarea>
             <p>
                 <input type="submit" name="nCadastrar" 
