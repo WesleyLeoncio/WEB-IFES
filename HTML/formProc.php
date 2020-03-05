@@ -1,5 +1,6 @@
 <?php
 session_start();
+    /*$msgErro = "";
      if(isset($_POST['nIdade'])){
         $idade = $_POST['nIdade'];
         if($idade > 20){
@@ -11,11 +12,30 @@ session_start();
                 </div>";
             header("location: FormContato.php");
         }
-     }
+     } */
      if(isset($_POST['nNome'])){
         $nome = $_POST['nNome'];
         if(empty($nome)){
-            echo "NOME INVALIDO!";
+            $msgErro +="Nome Inválido!\n"
         }
-     }
+     }elseif(isset($_POST['nEmail'])){
+        $email = $_POST['nEmail'];
+        if(empty($email)){
+            $msgErro +="Email Inválido!\n"
+        }
+    }
+
+     if(isset($_POST['nCurso'])){
+        $curso = $_POST['nCurso'];
+        if(empty($curso)){
+            $msgErro +="Idade Inválido!\n"
+        }
+    }
+
+    if(isset($_POST['nIdade'])){
+        $idade = $_POST['nIdade'];
+        if(empty($idade)){
+            $msgErro +="Idade Inválido!\n"
+        }
+    }
 
