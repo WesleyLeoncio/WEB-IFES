@@ -5,24 +5,33 @@
         <title>:: Formulários de Contato ::</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="formCSS.css">
     </head>
     <body>
+
+    <div class="cabecario">
+      <div class="container">
+        <h1 class="titulo">Formulario de Contato</h1>
+        <p class="texto">Preencha todos os campos corretamente para entrar em contato!</p>
+      </div>
+    </div>
+
         <?php
           session_start();
-          if(isset($_SESSION['msg'])){
-            echo $_SESSION['msg'];
-            unset($_SESSION['msg']);
+          if(isset($_SESSION['msgErro'])){
+            echo $_SESSION['msgErro'];
+            unset($_SESSION['msgErro']);
 
           }
         ?>
 
-        <form action="FormProc.php" name="formContato" method="post">
-            <p>Faça Contato:</p>
+        <form action="FormProc.php" name="formContato" id="formContato" method="post">
+            <p>Faça Contato</p>
             <label for="iNome">Nome:</label>
             <input name="nNome" type="text" value="" id="iNome" /></br></br>
             <label for="iEmail">Email:</label>
-            <input name="nEmail" type="text" value="" id="iEmail" />
-        <hr />
+            <input name="nEmail" type="text" value="" id="iEmail" /></br></br>
+
         <p><label>Curso</label>
                 <select name="nCurso">
                     <optgroup label="Ensino Médio">
@@ -41,7 +50,7 @@
             </p>
             <label for="iIdade">Idade:</label>
                 <input name="nIdade" type="number" step="1"
-                placeholder="Digite sua idade" id="iIdade" />
+                placeholder="Digite sua idade" id="iIdade" /></br></br>
 
 
             <p><label for="iMsg">Mensagem:</label></br>
