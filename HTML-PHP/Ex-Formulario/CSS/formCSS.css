@@ -1,0 +1,20 @@
+#formContato{
+    font-weight: bold;
+    padding-left: 0.5cm;
+    
+}
+.cabecario{
+    background-color: rgb(20, 18, 18);
+}
+.titulo{
+    padding-left: 4cm;
+    font-size: 70px;
+    color: rgb(24, 253, 16);
+}
+
+.texto{
+    padding-left: 7cm;
+    color: rgb(24, 253, 16);
+    font-weight: bold;
+}
+

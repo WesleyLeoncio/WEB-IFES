@@ -5,7 +5,7 @@
         <title>:: Formulários de Contato ::</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="formCSS.css">
+        <link rel="stylesheet" href="CSS/formCSS.css">
     </head>
     <body>
 
@@ -28,11 +28,16 @@
         <form action="FormProc.php" name="formContato" id="formContato" method="post">
             <p>Faça Contato</p>
             <label for="iNome">Nome</label></br>
-            <input name="nNome" type="text" value="" id="iNome" /></br></br>
-            <label for="iEmail">Email</label></br>
-            <input name="nEmail" type="text" value="" id="iEmail" /></br></br>
+            <input name="nNome"type="text" value="" id="iNome" /></br></br>
 
-        <p><label>Curso</label></br>
+            <label for="iEmail">Email</label></br>
+            <input name="nEmail"type="text" value="" id="iEmail" /></br></br>
+
+            <label for="iIdade">Idade</label></br>
+                <input name="nIdade" type="number" step="1"
+                placeholder="Digite sua idade" id="iIdade" /></br></br>
+
+            <label for="iCurso">Curso</label></br>
                 <select name="nCurso">
                     <optgroup label="Ensino Médio">
                         <option value="EMI">Eletromecânica Integrado</option>
@@ -46,15 +51,11 @@
                     <optgroup label="Pós-Graduação">
                         <option value="PR">Pós Graduação em Rochas</option>
                     </optgroup>            
-                </select>
-            </p>
-            <label for="iIdade">Idade</label></br>
-                <input name="nIdade" type="number" step="1"
-                placeholder="Digite sua idade" id="iIdade" /></br></br>
-
+                </select></br></br>
+            
 
             <p><label for="iMsg">Mensagem</label></br>
-                <textarea name="msg" id="iMsg" cols="30" rows="5"></textarea>
+                <textarea name="msg" id="iMsg" cols="32" rows="5"></textarea>
             <p>
                 <input type="submit" name="nCadastrar" 
                     class="btn btn-outline-success"
