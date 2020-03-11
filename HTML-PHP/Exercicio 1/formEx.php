@@ -3,11 +3,10 @@
 <head>
 <title>:: Formulário ::</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="CSS/ex1.css">
 </head>
 <body>
-    <table border="1">
+    <table border="1" class="tabela">
       <tr>
         <td colspan="2"><label class="titulo">Formulario de Cadastro</label></td>
       </tr>
@@ -23,7 +22,7 @@
         <td><label for="iCidade">Cidade: </label></td>
         <td><input name="nCidade"type="text" value="" id="iCidade" />
             <select name="nEstado">
-                <option value="Titulo">Escolha o Estado</option>
+                <option value="Titulo">Selecione um Estado</option>
                 <option value="ES">ES</option>
                 <option value="SP">SP</option>
                 <option value="RJ">RJ</option>
@@ -40,7 +39,7 @@
       </tr>
       <tr>       
         <td><label>Data de Nacimento:</label></td>
-        <td><input name="nNasc" type="date" value="" id="iNasc"/></p></td>
+        <td><input name="nNasc" type="date" value="" id="iNasc"/></td>
       </tr>
       <tr>
         <td colspan="2" class="botao">

@@ -6,3 +6,6 @@
 .botao{
     padding-left: 4cm;
 }
+.tabela{
+    position:absolute; left: 10px; top: 10px;
+}
