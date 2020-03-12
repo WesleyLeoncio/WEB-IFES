@@ -8,7 +8,7 @@
 <body>
 
   <form action="http://www.flavioizo.com/form/enviar_tela.php" name="formEX1" id="formEx1" method="post">
-    <table border="1" class="tabela">
+    <table border="1" class="tabela" cellpadding="0" cellspacing="0">
       <tr>
         <td colspan="2"><label class="titulo">Formulario de Cadastro</label></td>
       </tr>
