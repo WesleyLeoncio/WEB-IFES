@@ -1,0 +1,44 @@
+
+.Bandeira{
+    padding-top: 4cm;
+}
+
+.titulo{
+    padding-left: 2cm;
+    font-weight: bold;
+}
+
+#iVisa{
+    position:absolute; left: 100px;
+    position:absolute; top: 105px;
+}
+
+#imgVisa{
+    position:absolute; top: 86px;
+    position:absolute; left: 125px;
+}
+
+#iMaster{
+    position:absolute; left: 100px;
+    position:absolute; top: 145px;
+}
+
+#imgMaster{
+    position:absolute; top: 130px;
+    position:absolute; left: 125px;
+}
+
+#iAmerican{
+    position:absolute; left: 100px;
+    position:absolute; top: 185px;
+}
+
+#imgAmerican{
+    position:absolute; top: 175px;
+    position:absolute; left: 125px;
+}
+
+.ngText{
+    font-weight: bold;
+}
+
