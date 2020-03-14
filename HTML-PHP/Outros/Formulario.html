@@ -1,91 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset = "utf-8" />
-        <title>:: Formulários ::</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
-    <body>
-        <form action="" name="formLogar" method="post">
-            <p>Faça seu login:</p>
-            <label for="iLogin">Login:</label>
-            <input name="nLogin" type="text" value="" placeholder="Seu login" id="iLogin" />
-            <label for="iSenha">Senha:</label>
-            <input name="nSenha" type="password" value=""
-                   id="iSenha" />
-            <input type="submit" name="nLogar" value="Logar" />
-        </form>
-        <hr />
-        <form name="formCadastrar" method="post" action="">
-            <p>Faça seu cadastro</p>            
-            <p><label for="iNome">Nome:</label>
-                <input name="nNome" type="text" value="" id="iNome" /></p>
-            <p><label for="iCpf">CPF:</label>
-                <input name="nCpf" type="text" value="" id="iCpf" /></p>
-            <p><label for="iEmail">E-mail:</label>
-                <input name="nEmail" type="email" value="" id="iEmail" /></p>
-            <p><label for="iLogin">Login:</label>
-                <input name="nLogin" type="text" value="" id="iLogin" /></p>
-            <p><label for="iSenha">Senha:</label>
-            <input name="nSenha" type="password" value=""
-                   id="iSenha" /></p>         
-            <p><label for="iRenda">Renda:</label>
-                <input name="nRenda" type="number" value="" id="iRenda" step="0.01"/></p>
-            <p><label for="iNasc">Nasc:</label>
-                <input name="nNasc" type="date" value="" id="iNasc"/></p>
-            <p><label for="iObs">Obs:</label>
-                <textarea name="nObs" id="iObs"></textarea>
-            </p>
-            <p><label>Genero:</label>
-                <input name="nGenero" type="radio" value="M" id="iGenMasc"/><label for="iGenMasc">Masculino</label>
-                <input name="nGenero" type="radio" value="F" id="iGenFem"/><label for="iGenFem">Feminino</label>
-            </p>
-            <p><label>Curso</label>
-                <select name="nCurso">
-                    <optgroup label="Ensino Médio">
-                        <option value="EMI">Eletromecânica Integrado</option>
-                        <option value="IMI">Informática Integrado</option>
-                    </optgroup>
-                    <optgroup label="Ensino Superior">
-                        <option value="SI">Sistemas de Informação</option>
-                        <option value="EM">Engenharia Mecânica</option>
-                        <option value="LI">Licenciatura em Informática</option>
-                    </optgroup>
-                    <optgroup label="Pós-Graduação">
-                        <option value="PR">Pós Graduação em Rochas</option>
-                    </optgroup>
-                    
-                </select>
-            </p>
-            <p>
-                <label>Áreas de Interesse</label>
-                <input name="nAreas" type="checkbox" 
-                       value="Esportes" id="iAreasEsp"/>
-                <label for="iAreasEsp">Esportes</label>
-               
-                <input name="nAreas" type="checkbox" 
-                       value="Musica" id="iAreasMus"/>
-                <label for="iAreasMus">Música</label>
-                
-                <input name="nAreas" type="checkbox" 
-                       value="Política" id="iAreasPol"/>
-                <label for="iAreasPol">Política</label>
-            </p>
-            <p>
-                <input type="submit" name="nCadastrar" 
-                    class="btn btn-outline-primary"
-                    value="Cadastrar" />
 
-                <input type="submit" name="nLimpar" 
-                    class="btn btn-outline-dark"
-                    value="Limpar" />
-            </p>
-            
-        </form>
-        <!-- Aqui todos os elementos foram criados -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+<head>
+    <meta charset="utf-8" />
+    <title>:: Formulários ::</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <form action="" name="formLogar" method="post">
+        <p>Faça seu login:</p>
+        <label for="iLogin">Login:</label>
+        <input name="nLogin" type="text" value="" placeholder="Seu login" id="iLogin" />
+        <label for="iSenha">Senha:</label>
+        <input name="nSenha" type="password" value="" id="iSenha" />
+        <input type="submit" name="nLogar" value="Logar" />
+    </form>
+    <hr />
+    <form name="formCadastrar" method="post" action="">
+        <p>Faça seu cadastro</p>
+        <p><label for="iNome">Nome:</label>
+            <input name="nNome" type="text" value="" id="iNome" /></p>
+        <p><label for="iCpf">CPF:</label>
+            <input name="nCpf" type="text" value="" id="iCpf" /></p>
+        <p><label for="iEmail">E-mail:</label>
+            <input name="nEmail" type="email" value="" id="iEmail" /></p>
+        <p><label for="iLogin">Login:</label>
+            <input name="nLogin" type="text" value="" id="iLogin" /></p>
+        <p><label for="iSenha">Senha:</label>
+            <input name="nSenha" type="password" value="" id="iSenha" /></p>
+        <p><label for="iRenda">Renda:</label>
+            <input name="nRenda" type="number" value="" id="iRenda" step="0.01" /></p>
+        <p><label for="iNasc">Nasc:</label>
+            <input name="nNasc" type="date" value="" id="iNasc" /></p>
+        <p><label for="iObs">Obs:</label>
+            <textarea name="nObs" id="iObs"></textarea>
+        </p>
+        <p><label>Genero:</label>
+            <input name="nGenero" type="radio" value="M" id="iGenMasc" /><label for="iGenMasc">Masculino</label>
+            <input name="nGenero" type="radio" value="F" id="iGenFem" /><label for="iGenFem">Feminino</label>
+        </p>
+        <p><label>Curso</label>
+            <select name="nCurso">
+                <optgroup label="Ensino Médio">
+                    <option value="EMI">Eletromecânica Integrado</option>
+                    <option value="IMI">Informática Integrado</option>
+                </optgroup>
+                <optgroup label="Ensino Superior">
+                    <option value="SI">Sistemas de Informação</option>
+                    <option value="EM">Engenharia Mecânica</option>
+                    <option value="LI">Licenciatura em Informática</option>
+                </optgroup>
+                <optgroup label="Pós-Graduação">
+                    <option value="PR">Pós Graduação em Rochas</option>
+                </optgroup>
+
+            </select>
+        </p>
+        <p>
+            <label>Áreas de Interesse</label>
+            <input name="nAreas" type="checkbox" value="Esportes" id="iAreasEsp" />
+            <label for="iAreasEsp">Esportes</label>
+
+            <input name="nAreas" type="checkbox" value="Musica" id="iAreasMus" />
+            <label for="iAreasMus">Música</label>
+
+            <input name="nAreas" type="checkbox" value="Política" id="iAreasPol" />
+            <label for="iAreasPol">Política</label>
+        </p>
+        <p>
+            <input type="submit" name="nCadastrar" class="btn btn-outline-primary" value="Cadastrar" />
+
+            <input type="submit" name="nLimpar" class="btn btn-outline-dark" value="Limpar" />
+        </p>
+
+    </form>
+    <!-- Aqui todos os elementos foram criados -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
