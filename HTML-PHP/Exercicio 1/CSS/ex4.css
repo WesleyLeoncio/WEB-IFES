@@ -1,0 +1,90 @@
+
+h1{
+    padding-left: 3cm;
+}
+h2{
+    padding-left: 2.4cm;
+}
+
+.PrincipalP{
+    padding-top: 18px;
+}
+
+.Dados{
+    position:absolute; top: 3.5cm;
+}
+
+.NomeAluno{
+    padding-top: 2px;
+    position:absolute; left: 2.3cm;  
+}
+.TamanhoTxt{
+    width:6cm;
+}
+.Nacimento{
+    padding-left: 12px;
+    padding-top: 30px;
+
+}
+
+.TamanhoData{
+    width:40px;
+}
+
+.NomeMae{
+    padding-left: 2.1cm;
+    padding-top: 10px;
+}
+
+.NomePai{
+    padding-left: 2.3cm;
+    padding-top: 10px;
+}
+
+.Telefone{
+    padding-left: 3cm;
+    padding-top: 10px;
+}
+
+.TamanhoDDD{
+    width:50px;
+}
+.TamanhoTel{
+    width:80px;
+}
+.TamanhoRamal{
+    width:50px;
+}
+
+.Email{
+    padding-left: 3.3cm;
+    padding-top: 10px; 
+}
+
+
+
+/* Informações De Matricula*/
+.Serie{
+    position:absolute; top: 9.1cm;
+ 
+}
+
+.Titulos{
+    font-weight: bold;
+}
+.Turno{
+    position:absolute; left: 5cm;
+    position:absolute; top: 9.6cm;
+}
+
+.Atividade{
+    position:absolute; left: 8cm;
+    position:absolute; top: 9.6cm;
+}
+.PrincipalM{
+    padding-top: 4.3cm;
+}
+.Botoes{
+    padding-top: 10px;
+    position:absolute; left: 3.5cm;
+}
