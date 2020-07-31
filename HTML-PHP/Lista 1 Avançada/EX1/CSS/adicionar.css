@@ -1,0 +1,19 @@
+.principal{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.lista{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+H1{
+    padding-left: 30px;
+    color: green;
+    font-size: 35px;
+}
+
+li:hover{
+    color: red;
+}
